@@ -1,0 +1,40 @@
+/* Timer Modes */
+"mode.focus" = "Focus";
+"mode.shortBreak" = "Short Break";
+"mode.longBreak" = "Long Break";
+
+/* Timer Controls */
+"button.reset" = "Reset";
+"button.skip" = "Skip";
+"button.start" = "Start";
+"button.pause" = "Pause";
+
+/* Bottom Bar */
+"button.stats" = "Stats";
+"button.settings" = "Settings";
+"button.quit" = "Quit";
+"button.back" = "Back";
+
+/* Stats */
+"stats.title" = "Stats";
+"stats.today" = "Today";
+"stats.thisWeek" = "This Week";
+"stats.last7Days" = "Last 7 Days";
+"stats.todayCount" = "Today: %lld pomodoros";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.duration" = "Duration (min)";
+"settings.focus" = "Focus";
+"settings.shortBreak" = "Short";
+"settings.longBreak" = "Long";
+"settings.longBreakInterval" = "Long Break";
+"settings.longBreakUnit" = "pomodoros";
+"settings.autoStartNext" = "Auto Start Next";
+"settings.launchAtLogin" = "Launch at Login";
+
+/* Notifications */
+"notification.focusDone.title" = "Focus Complete!";
+"notification.focusDone.body" = "Time for a break";
+"notification.breakDone.title" = "Break Over!";
+"notification.breakDone.body" = "Ready to focus?";

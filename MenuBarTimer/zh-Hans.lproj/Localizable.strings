@@ -1,0 +1,40 @@
+/* Timer Modes */
+"mode.focus" = "专注";
+"mode.shortBreak" = "短休息";
+"mode.longBreak" = "长休息";
+
+/* Timer Controls */
+"button.reset" = "重置";
+"button.skip" = "跳过";
+"button.start" = "开始";
+"button.pause" = "暂停";
+
+/* Bottom Bar */
+"button.stats" = "统计";
+"button.settings" = "设置";
+"button.quit" = "退出";
+"button.back" = "返回";
+
+/* Stats */
+"stats.title" = "统计";
+"stats.today" = "今日";
+"stats.thisWeek" = "本周";
+"stats.last7Days" = "近 7 天";
+"stats.todayCount" = "今日: %lld 个番茄";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.duration" = "时长设置（分钟）";
+"settings.focus" = "专注";
+"settings.shortBreak" = "短休息";
+"settings.longBreak" = "长休息";
+"settings.longBreakInterval" = "长休息间隔";
+"settings.longBreakUnit" = "个番茄";
+"settings.autoStartNext" = "自动开始下一轮";
+"settings.launchAtLogin" = "开机自启动";
+
+/* Notifications */
+"notification.focusDone.title" = "专注完成!";
+"notification.focusDone.body" = "休息一下吧";
+"notification.breakDone.title" = "休息结束!";
+"notification.breakDone.body" = "准备好继续专注了吗?";

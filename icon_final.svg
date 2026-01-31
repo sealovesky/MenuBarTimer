@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6B4A"/>
+      <stop offset="100%" stop-color="#E63926"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="dialGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F5F5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tomato body -->
+  <ellipse cx="256" cy="290" rx="195" ry="185" fill="url(#bodyGrad)"/>
+  <!-- Tomato highlight -->
+  <ellipse cx="200" cy="230" rx="60" ry="40" fill="#FF8A70" opacity="0.5" transform="rotate(-20, 200, 230)"/>
+
+  <!-- Stem -->
+  <rect x="248" y="95" width="16" height="45" rx="8" fill="#5D4037"/>
+
+  <!-- Leaf left -->
+  <path d="M256 120 C220 80, 160 90, 155 120 C150 145, 200 140, 240 125" fill="url(#leafGrad)"/>
+  <!-- Leaf right -->
+  <path d="M256 120 C292 80, 352 90, 357 120 C362 145, 312 140, 272 125" fill="url(#leafGrad)"/>
+
+  <!-- Clock face -->
+  <circle cx="256" cy="300" r="90" fill="url(#dialGrad)" opacity="0.95"/>
+  <circle cx="256" cy="300" r="84" fill="none" stroke="#E0E0E0" stroke-width="2"/>
+
+  <!-- Hour marks -->
+  <line x1="256" y1="222" x2="256" y2="232" stroke="#999" stroke-width="3" stroke-linecap="round"/>
+  <line x1="256" y1="368" x2="256" y2="378" stroke="#999" stroke-width="3" stroke-linecap="round"/>
+  <line x1="172" y1="300" x2="182" y2="300" stroke="#999" stroke-width="3" stroke-linecap="round"/>
+  <line x1="330" y1="300" x2="340" y2="300" stroke="#999" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Minute hand -->
+  <line x1="256" y1="300" x2="256" y2="238" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  <!-- Hour hand -->
+  <line x1="256" y1="300" x2="296" y2="268" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="256" cy="300" r="6" fill="#E63926"/>
+
+  <!-- Progress arc -->
+  <path d="M256 216 A84 84 0 1 1 186 258" fill="none" stroke="#FF9800" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+</svg>
