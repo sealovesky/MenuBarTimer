@@ -193,7 +193,9 @@ MenuBarTimer 是一款简洁的 macOS 原生菜单栏番茄钟应用。使用番
 ### 截图
 
 <p align="center">
-  <i>截图即将上线</i>
+  <img src="assets/screenshots/timer.png" width="280" alt="计时器" />
+  <img src="assets/screenshots/stats.png" width="280" alt="统计" />
+  <img src="assets/screenshots/settings.png" width="280" alt="设置" />
 </p>
 
 ### 安装
