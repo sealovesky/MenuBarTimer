@@ -105,7 +105,7 @@ struct MenuBarView: View {
             HStack {
                 Image(systemName: "flame.fill")
                     .foregroundColor(.orange)
-                Text("stats.todayCount \(timerManager.completedPomodoros)")
+                Text(String(format: NSLocalizedString("stats.todayCount", comment: ""), timerManager.completedPomodoros))
                     .font(.caption)
                     .foregroundColor(.secondary)
             }

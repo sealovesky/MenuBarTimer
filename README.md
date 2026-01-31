@@ -65,7 +65,9 @@ MenuBarTimer is a clean, native macOS Pomodoro timer that lives in your menu bar
 ### Screenshots
 
 <p align="center">
-  <i>Screenshots coming soon</i>
+  <img src="assets/screenshots/timer.png" width="280" alt="Timer" />
+  <img src="assets/screenshots/stats.png" width="280" alt="Stats" />
+  <img src="assets/screenshots/settings.png" width="280" alt="Settings" />
 </p>
 
 ### Installation
